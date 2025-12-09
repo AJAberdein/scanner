@@ -29,13 +29,28 @@
         box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
         transition: all 0.2s ease;
       }
+
+      a:link {
+        text-decoration: inherit;
+        color: inherit;
+        cursor: auto;
+      }
+
+      a:visited {
+        text-decoration: inherit;
+        color: inherit;
+        cursor: auto;
+      }
     </style>
   </head>
   <body>
     <button class="scan-button">
-        <a href="vodapaywallet://deeplink.htm?action=native&pageId=scan" target="_blank">
-            Scanner
-        </a>
+      <a
+        href="vodapaywallet://deeplink.htm?action=native&pageId=scan"
+        target="_blank"
+      >
+        Scanner
+      </a>
     </button>
   </body>
 </html>
